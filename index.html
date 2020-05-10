@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+    <header class="header">Find the Weather</header>
+    <div class="container">
+      <div class="name" id="name">Name of City</div>
+      <div class="cloud-description">SkyqualityDescription</div>
+      <div class="cloud-level">Skyquality</div>
+      <div class="wind-speed">Wind Speed</div>
+      <div class="temperature">
+        <div class='temperature_celcius active' >Temperature In Celcius</div>
+        <div class='temperature_fahrenheit'>Temperature In Fahrenheit</div>
+      </div>
+      <div>
+        <class class="Temperaturetoggle">
+          <button class ='temperaturetoggle-button btn' onclick=toggleDegreeMetric()>Toggle Celcius &#8451 & Fahrenheit &#8457 </button></class
+        >
+      </div>
+      
+   
+      </div>
+      <div class="search-bar-container">
+        <label for="search-bar">Enter the location of your choice</label>
+        <input type="search" name="search-bar" id="search-bar">
+        <button class='btn search-button'  type='submit' required onclick=searchCityHandler()>Search</button>
+    </div>
+      <div class="footer">Footer</div>
+  
+  </body>
+</html>
